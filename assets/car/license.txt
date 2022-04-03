@@ -1,0 +1,11 @@
+Model Information:
+* title:	3d car
+* source:	https://sketchfab.com/3d-models/3d-car-ce7f30f1f8154e8db0b4f21eb75b9728
+* author:	Tech developers (https://sketchfab.com/Deepu.Dra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3d car" (https://sketchfab.com/3d-models/3d-car-ce7f30f1f8154e8db0b4f21eb75b9728) by Tech developers (https://sketchfab.com/Deepu.Dra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

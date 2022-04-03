@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+<!-- we import arjs version without NFT but with marker + location based support -->
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+<body>
+    <a-scene embedded arjs>
+        <a-marker preset="hiro">
+            <a-light type="directional" intensity="4" position="0 0 0" rotation="-90 0 0" target="#directionaltarget">
+                <a-entity light="type:directional;" id="directionaltarget" position="0 0 -20">
+                </a-entity>
+            </a-light>
+            <a-gltf-model position="0 0 0" rotation="0 90 0" scale="0.5 0.5 0.5" gltf-model="./assets/car/scene.gltf">
+            </a-gltf-model>
+        </a-marker>
+        <a-entity camera far="100"></a-entity>
+    </a-scene>
+</body>
+
+</html>
